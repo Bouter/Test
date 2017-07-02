@@ -15,5 +15,25 @@
 int main(void)
 {
 	int test;
+	char res;
+	res = test(4);
 	for(;;);
+}
+
+char test(int getal)
+{
+	if(getal == 5)
+	{
+		return 'a';
+	}
+	return 'b';
+}
+
+char test2(int getal)
+{
+	if(getal == 5)
+	{
+		return 'a';
+	}
+	return 'b';
 }
