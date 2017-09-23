@@ -22,6 +22,9 @@ int main(void)
 	res = res + 'r';
 	for(;;);
 }
+/**
+ *
+ */
 char feature(int getal)
 {
 	if(getal == 5)
