@@ -13,14 +13,28 @@
 			
 char test(int getal);
 char feature(int getal);
+char feature2(int getal);
 char test2(int getal);
 int main(void)
 {
-	//int test;
+
 	char res;
 	res = test(4);
 	res = res + 'r';
+	feature2(5);
 	for(;;);
+}
+/**
+ *
+ */
+
+char feature2(int getal)
+{
+	if(getal == 5)
+	{
+		return 'a';
+	}
+	return 'b';
 }
 char feature(int getal)
 {
